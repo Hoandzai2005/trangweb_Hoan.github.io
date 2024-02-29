@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.intro{
+    background-image: url(images/shop.jpg);
+    background-position: 100px;
+    background-color: rgb(96, 93, 93);
+    font-size: 30px;
+    color: rgb(201, 236, 29);
+    opacity: 0.9;
+}
+#brand{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+header{
+    background-color: palevioletred;
+    text-align: center;
+    font-size: 35px;
+    color: #7FFF;
+    border-radius: 5px;
+}
+main section nav{
+    float: left;
+    background-color: #ccc;
+    width: 40%;
+    height: 300px;
+    padding: 20px;
+    border-radius: 5px;
+}
+nav ul{
+    list-style-type: none;
+    font-size: 20px;
+}
+section h3{
+    font-size: 20px;
+    color: #222;
+}
+section form input, select{
+    width: 45%;
+    height: 30px;
+}
+section form label{
+    font-size: 20px;
+    color: blue;
+    margin-right: 20px;
+}
+article{
+    float: left;
+    padding: 20px;
+    width: 60%;
+    background-image: url(images/map.jpg);
+    opacity: 0.9;
+    height: 300px;
+    border-radius: 5px;
+}
+article h1{
+    font-size: 40px;
+    color: #222;
+    margin-left: 50px;
+}
+article a{
+    margin-left: 50px;
+    color: #222;
+    font-size: 30px;
+}
+footer{
+    background-color: #777;
+    padding: 10px;
+    padding-top: 10px;
+    text-align: center;
+    color: #f1f1f1;
+    margin-top: 350px;
+    border-radius: 5px;
+}
